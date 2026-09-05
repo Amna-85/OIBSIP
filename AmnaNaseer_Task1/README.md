@@ -4,27 +4,27 @@ A browser-based voice assistant built with Python and Flask. It listens to spoke
 
 ### Features
 
-**Voice input capture** — records and transcribes speech via the microphone using Google's Speech Recognition API
-**Spoken responses**— replies are read aloud using `pyttsx3` text-to-speech, run on a background thread so the app doesn't freeze while speaking
-**Greetings** — responds to "hello", "hi", "hey"
-**Time & date** — tells the current time, today's date, tomorrow's date, and yesterday's date
-**Live weather**— fetches real-time temperature and wind speed for any city using the Open-Meteo API (geocodes the city name to coordinates first, no API key required)
-**Web search & YouTube** — opens a Google search directly in your browser based on what you say
-**General knowledge Q&A** — any question that doesn't match a built-in command is sent to Google's Gemini API for a natural-language answer
-**"Repeat that" command** — repeats the assistant's last response on request
-**Simple web interface**— served via Flask, opens automatically in your browser on startup
+Voice input capture— records and transcribes speech via the microphone using Google's Speech Recognition API
+Spoken responses— replies are read aloud using `pyttsx3` text-to-speech, run on a background thread so the app doesn't freeze while speaking
+Greetings — responds to "hello", "hi", "hey"
+Time & date — tells the current time, today's date, tomorrow's date, and yesterday's date
+Live weather— fetches real-time temperature and wind speed for any city using the Open-Meteo API (geocodes the city name to coordinates first, no API key required)
+Web search & YouTube — opens a Google search directly in your browser based on what you say
+General knowledge Q&A — any question that doesn't match a built-in command is sent to Google's Gemini API for a natural-language answer
+"Repeat that" command — repeats the assistant's last response on request
+Simple web interface— served via Flask, opens automatically in your browser on startup
 
 ### Technologies Used
 
-**Python:**Core language 
-**Flask:**Web server and browser-based UI 
-**Speech_Recognition:**Captures microphone audio and converts it to text (via Google's Web Speech API) 
-**pyttsx3:**Converts text responses to spoken audio
-**Google Gemini API:**(`google-genai`)-Answers general knowledge questions outside the built-in command set 
-**Open-Meteo API:**Free, no-key-required live weather and city geocoding 
-**python-dotenv:**Loads API keys from a local `.env` file instead of hardcoding them 
-**requests:**Makes HTTP calls to the weather and geocoding APIs 
-**threading:**Runs text-to-speech and browser-launch in the background without blocking the app 
+Python:Core language 
+Flask:Web server and browser-based UI 
+Speech_Recognition:Captures microphone audio and converts it to text (via Google's Web Speech API) 
+pyttsx3:Converts text responses to spoken audio
+Google Gemini API:(`google-genai`)-Answers general knowledge questions outside the built-in command set 
+Open-Meteo API:Free, no-key-required live weather and city geocoding 
+python-dotenv:Loads API keys from a local `.env` file instead of hardcoding them 
+requests:Makes HTTP calls to the weather and geocoding APIs 
+threading:Runs text-to-speech and browser-launch in the background without blocking the app 
 
  ### Project Structure
 
