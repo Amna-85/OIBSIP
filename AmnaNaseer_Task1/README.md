@@ -79,6 +79,7 @@ Click the Speak button on the page and try commands like:
 - "Search (any) tutorials"
 - "What is photosynthesis?" *(routed to Gemini, GK Q&A)*
 
+---
 ### Privacy Notes
 
 - Microphone audio is sent to Google's Speech Recognition service for transcription — audio is not stored locally.
