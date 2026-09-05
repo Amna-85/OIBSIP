@@ -4,6 +4,7 @@ A weather app built with the Tkinter library that fetches and displays real-time
 
 This project was developed as part of my Python Development internship at Oasis Infobyte (OIBSIP).
 
+---
 ### Features
 
 - **Real-Time Weather Data:** Fetches current temperature, feels-like temperature, humidity, and wind speed.
@@ -13,6 +14,7 @@ This project was developed as part of my Python Development internship at Oasis 
 - **Dynamic Weather Icons:** Fetches and displays real-time weather condition icons from the API.
 - **Robust Error Handling:** Gracefully handles network timeouts, invalid cities, and API errors via GUI popups.
 
+--- 
 ### Technologies Used
 
 - **Python 3.x**
@@ -22,6 +24,7 @@ This project was developed as part of my Python Development internship at Oasis 
 - **python-dotenv** (For secure API key management)
 - **OpenWeatherMap API** (Free tier for weather data)
 
+  ---
 ### Project Structure
 
 ```text
