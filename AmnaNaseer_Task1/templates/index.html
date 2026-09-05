@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Voice Assistant</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #1e1e2e; color: #fff; text-align: center; padding-top: 50px; }
+        .card { background: #2b2b3d; width: 380px; margin: 0 auto; padding: 30px; border-radius: 16px; }
+        button { background: #74c7ec; border: none; padding: 14px 28px; font-size: 16px; border-radius: 8px; cursor: pointer; font-weight: bold; }
+        button:hover { background: #89dceb; }
+        .box { margin-top: 25px; text-align: left; background: #181825; padding: 15px; border-radius: 10px; }
+        .user { color: #a6e3a1; font-weight: bold; }
+        .bot { color: #89b4fa; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2> Voice Assistant</h2>
+        <button id="speakBtn" onclick="startListening()">Speak Now</button>
+        <div class="box">
+            <p><span class="user">You:</span> <span id="userText">Click 'Speak Now' and talk...</span></p>
+            <p><span class="bot">Assistant:</span> <span id="botText">Waiting...</span></p>
+        </div>
+    </div>
+    <script>
+        async function startListening() {
+            const userTextElem = document.getElementById('userText');
+            const botTextElem = document.getElementById('botText');
+            const btn = document.getElementById('speakBtn');
+
+            btn.disabled = true;
+            btn.innerText = "Listening...";
+            userTextElem.innerText = "Listening to microphone...";
+            botTextElem.innerText = "Processing...";
+
+            try {
+                let response = await fetch('/listen', { method: 'POST' });
+                let data = await response.json();
+                userTextElem.innerText = data.user || "(No speech detected)";
+                botTextElem.innerText = data.bot;
+            } catch (error) {
+                userTextElem.innerText = "Error";
+                botTextElem.innerText = "Could not reach Python backend.";
+            } finally {
+                btn.disabled = false;
+                btn.innerText = "Speak Now";
+            }
+        }
+    </script>
+</body>
+</html>
