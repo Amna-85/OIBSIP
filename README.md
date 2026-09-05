@@ -2,7 +2,7 @@ Python Voice Assistant (Flask + Gemini)
 
 A browser-based voice assistant built with Python and Flask. It listens to spoken commands through your microphone, transcribes them to text, matches them against a set of built-in commands, and falls back to Google's Gemini API for open-ended general knowledge questions — replying both on-screen and out loud via text-to-speech.
 
-Features
+###Features
 
 *Voice input capture — records and transcribes speech via the microphone using Google's Speech Recognition API
 *Spoken responses— replies are read aloud using `pyttsx3` text-to-speech, run on a background thread so the app doesn't freeze while speaking
@@ -14,7 +14,7 @@ Features
 *"Repeat that" command — repeats the assistant's last response on request
 *Simple web interface— served via Flask, opens automatically in your browser on startup
 
-Technologies Used
+###Technologies Used
 
 Python:Core language 
 Flask:Web server and browser-based UI 
@@ -26,7 +26,7 @@ python-dotenv:Loads API keys from a local `.env` file instead of hardcoding them
 requests:Makes HTTP calls to the weather and geocoding APIs 
 threading:Runs text-to-speech and browser-launch in the background without blocking the app 
 
- Project Structure
+ ###Project Structure
 
 ```
 project-folder/
@@ -38,7 +38,7 @@ project-folder/
 └── README.md
 ```
 
-Setup
+###Setup
 
 ### 1.Clone the repository
 ```bash
@@ -73,7 +73,7 @@ Click the Speak button on the page and try commands like:
 - "Search (any) tutorials"
 - "What is photosynthesis?" *(routed to Gemini, GK Q$A)*
 
-Privacy Notes
+###Privacy Notes
 
 - Microphone audio is sent to Google's Speech Recognition service for transcription — audio is not stored locally.
 - Weather queries send only the city name to Open-Meteo (no personal data).
