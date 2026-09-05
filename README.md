@@ -71,7 +71,7 @@ Click the Speak button on the page and try commands like:
 - "What time is it?"
 - "What's the weather in (any city)?"
 - "Search (any) tutorials"
-- "What is photosynthesis?" *(routed to Gemini, GK Q$A)*
+- "What is photosynthesis?" *(routed to Gemini, GK Q&A)*
 
 ### Privacy Notes
 
