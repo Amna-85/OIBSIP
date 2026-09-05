@@ -1,4 +1,4 @@
-Python Voice Assistant (Flask + Gemini)
+###Python Voice Assistant (Flask + Gemini)
 
 A browser-based voice assistant built with Python and Flask. It listens to spoken commands through your microphone, transcribes them to text, matches them against a set of built-in commands, and falls back to Google's Gemini API for open-ended general knowledge questions — replying both on-screen and out loud via text-to-speech.
 
