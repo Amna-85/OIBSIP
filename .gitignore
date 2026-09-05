@@ -1,0 +1,13 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local SQLite database files
+*.db
+*.sqlite3
+
+# IDE / Editor specific settings
+.vscode/
+.idea/
