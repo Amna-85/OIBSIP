@@ -2,7 +2,7 @@
 
 A weather app built with the Tkinter library that fetches and displays real-time weather data for a user-specified location using the OpenWeatherMap API and displays predicted weather for 5 days. 
 
-This project was developed as part of my Python Development internship at Oasis Infobyte (OIBSIP).
+This project was developed as part of my Python Development internship at *Oasis Infobyte (OIBSIP).*
 
 ---
 ### Features
@@ -34,5 +34,31 @@ Task3_Weather_App/
 ├── requirements.txt       # Python dependencies
 ├── .env.example           # Template for API key
 └── README.md              # Project documentation
-├── .env.example           # Template for API key
-└── README.md              # Project documentation
+
+---
+### Installation & Setup
+
+**1. Clone the Repository**
+    bash
+    git clone https://github.com/your-username/OIBSIP.git
+    cd OIBSIP/Task3_Weather_App
+
+**2. Install Dependencies**
+    It is recommended to use a virtual environment:
+    bash
+      -python -m venv venv
+      -source venv/bin/activate  # On Windows use: venv\Scripts\activate
+      -pip install -r requirements.txt
+
+**3. API Key Setup**
+    -Sign up for a free account at OpenWeatherMap and generate an API key.
+    -Create a file named .env in the root directory of this project.
+    -Add your API key to the file in the following format:
+    env
+    OPENWEATHER_API_KEY=your_actual_api_key_here
+
+**4. Run the Application**
+    bash
+    python gui.py
+
+
