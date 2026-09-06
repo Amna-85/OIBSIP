@@ -1,4 +1,4 @@
-# 🚀 OIBSIP - Python Development Internship Tasks
+# OIBSIP - Python Development Internship Tasks
 
 Welcome to my repository for the **Python Development Internship** at **Oasis Infobyte (OIBSIP)**. 
 
