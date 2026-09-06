@@ -52,6 +52,7 @@ Task3_Weather_App/
     3. pip install -r requirements.txt
 
 **3. API Key Setup:**
+
     1. Sign up for a free account at OpenWeatherMap and generate an API key.
     2. Create a file named .env in the root directory of this project.
     3. Add your API key to the file in the following format:
