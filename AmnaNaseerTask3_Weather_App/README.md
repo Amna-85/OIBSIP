@@ -34,7 +34,7 @@ Task3_Weather_App/
 ├── requirements.txt       # Python dependencies
 ├── .env.example           # Template for API key
 └── README.md              # Project documentation
-
+```
 ---
 ### Installation & Setup
 
