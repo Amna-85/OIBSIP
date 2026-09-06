@@ -7,15 +7,15 @@ A browser-based voice assistant built with Python and Flask. It listens to spoke
  ---
 ### Features
 
-Voice input capture— records and transcribes speech via the microphone using Google's Speech Recognition API
-Spoken responses— replies are read aloud using `pyttsx3` text-to-speech, run on a background thread so the app doesn't freeze while speaking
-Greetings — responds to "hello", "hi", "hey"
-Time & date — tells the current time, today's date, tomorrow's date, and yesterday's date
-Live weather— fetches real-time temperature and wind speed for any city using the Open-Meteo API (geocodes the city name to coordinates first, no API key required)
-Web search & YouTube — opens a Google search directly in your browser based on what you say
-General knowledge Q&A — any question that doesn't match a built-in command is sent to Google's Gemini API for a natural-language answer
-"Repeat that" command — repeats the assistant's last response on request
-Simple web interface— served via Flask, opens automatically in your browser on startup
+1. Voice input capture— records and transcribes speech via the microphone using Google's Speech Recognition API
+2. Spoken responses— replies are read aloud using `pyttsx3` text-to-speech, run on a background thread so the app doesn't freeze while speaking
+3. Greetings — responds to "hello", "hi", "hey"
+4. Time & date — tells the current time, today's date, tomorrow's date, and yesterday's date
+5. Live weather— fetches real-time temperature and wind speed for any city using the Open-Meteo API (geocodes the city name to coordinates first, no API key required)
+6. Web search & YouTube — opens a Google search directly in your browser based on what you say
+7. General knowledge Q&A — any question that doesn't match a built-in command is sent to Google's Gemini API for a natural-language answer
+8. "Repeat that" command — repeats the assistant's last response on request
+9. Simple web interface— served via Flask, opens automatically in your browser on startup
 
 ---
 ### Technologies Used
