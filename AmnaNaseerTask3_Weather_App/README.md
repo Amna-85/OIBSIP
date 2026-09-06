@@ -2,7 +2,7 @@
 
 A weather app built with the Tkinter library that fetches and displays real-time weather data for a user-specified location using the OpenWeatherMap API and displays predicted weather for 5 days. 
 
-This project was developed as part of my Python Development internship at *Oasis Infobyte (OIBSIP).*
+***This project was developed as part of my Python Development internship at Oasis Infobyte (OIBSIP).***
 
 ---
 ### Features
