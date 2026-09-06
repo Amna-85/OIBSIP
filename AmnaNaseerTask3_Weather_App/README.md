@@ -38,27 +38,30 @@ Task3_Weather_App/
 ---
 ### Installation & Setup
 
-**1. Clone the Repository**
+**1. Clone the Repository:**
     bash
-    git clone https://github.com/your-username/OIBSIP.git
-    cd OIBSIP/Task3_Weather_App
+   1. git clone https://github.com/your-username/OIBSIP.git
+   2. cd OIBSIP/Task3_Weather_App
 
-**2. Install Dependencies**
+**2. Install Dependencies:**
     It is recommended to use a virtual environment:
+    
     bash
-      -python -m venv venv
-      -source venv/bin/activate  # On Windows use: venv\Scripts\activate
-      -pip install -r requirements.txt
+    1. python -m venv venv
+    2. source venv/bin/activate  # On Windows use: venv\Scripts\activate
+    3. pip install -r requirements.txt
 
-**3. API Key Setup**
-    -Sign up for a free account at OpenWeatherMap and generate an API key.
-    -Create a file named .env in the root directory of this project.
-    -Add your API key to the file in the following format:
+**3. API Key Setup:**
+    1. Sign up for a free account at OpenWeatherMap and generate an API key.
+    2. Create a file named .env in the root directory of this project.
+    3. Add your API key to the file in the following format:
+    
     env
-    OPENWEATHER_API_KEY=your_actual_api_key_here
+    1. OPENWEATHER_API_KEY=your_actual_api_key_here
 
-**4. Run the Application**
+**4. Run the Application:**
+
     bash
-    python gui.py
+    1. python gui.py
 
 
