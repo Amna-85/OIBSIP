@@ -1,8 +1,8 @@
 ### Advanced BMI Tracker & Visualizer
-
+---
 A modular desktop application built with Python, Tkinter, SQLite, and Matplotlib. It calculates Body Mass Index (BMI), provides color-coded category feedback, supports multi-user tracking, and visualizes historical health trends over time.
 
-***This project was developed as part of my Python Development internship at Oasis Infobyte (OIBSIP). ***
+***This project was developed as part of my Python Development internship at Oasis Infobyte (OIBSIP).***
 ---
 
 ## Features
