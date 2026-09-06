@@ -2,7 +2,7 @@
 
 A modular desktop application built with Python, Tkinter, SQLite, and Matplotlib. It calculates Body Mass Index (BMI), provides color-coded category feedback, supports multi-user tracking, and visualizes historical health trends over time.
 
-***This project was developed as part of my Python Development internship at Oasis Infobyte (OIBSIP).***
+**This project was developed as part of my Python Development internship at Oasis Infobyte (OIBSIP).**
 ---
 
 ## Features
@@ -46,19 +46,19 @@ Project Folder/
 **1. Clone the repository:**
 
 Bash
-git clone <your-repo-url>
-cd <your-repo-folder>
+1. git clone <your-repo-url>
+2. cd <your-repo-folder>
 
 **2. Install dependencies:**
 
 Bash
-pip install matplotlib
-tkinter and sqlite3 come pre-installed with standard Python distributions.
+1. pip install matplotlib
+2. tkinter and sqlite3 come pre-installed with standard Python distributions.
 
 **3. Run the app:**
 
 Bash
-python app.py
-The app will initialize the local SQLite database (bmi_tracker.db) automatically and launch the desktop GUI window.
+1. python app.py
+ The app will initialize the local SQLite database (bmi_tracker.db) automatically and launch the desktop GUI window.
 ├── bmi_logic.py     # Business Logic Layer (BMI calculations & input validation)
 └── database.py      # Data Access Layer (SQLite CRUD queries & table init)
